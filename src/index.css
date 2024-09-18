@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans", cursive;
+}
+
+body {
+  min-height: 100vh;
+  background-color: teal;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todoInput {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.todoInput input {
+  font-size: 36px;
+  font-family: "Handjet", sans-serif;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.todoInput button {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 36px;
+  font-family: "Handjet", sans-serif;
+  cursor: pointer;
+}
+
+.todoList {
+  list-style: none;
+}
+
+.todoCard {
+  background-color: hsl(180, 100%, 20%);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoCard p{
+    font-size: 20px;
+}
+
+.todoCard .action-container{
+    display: flex;
+    gap: 10px;
+}
+
+.todoCard .action-container button{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.action-container i{
+    font-size: 20px;
+}
+
+.todoCard .action-container button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
